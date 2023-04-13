@@ -29,3 +29,10 @@ Invoke-RestMethod -Uri "http://localhost:3000/login" -Method POST -Headers @{"Co
 ```
 Invoke-RestMethod -Uri "http://localhost:3000/students" -Method POST -Headers @{"CContent-Type"="application/json"; "Authorization"="Bearer <tocken-of-the-user>"} -Body '{"nickname": "<new-nickname>", "first_name": "<new-first-name>", "last_name": "<new-last-name>"}'
 ```
+
+## Testing
+
+To run the test file, use the command:
+```
+./test.js
+```

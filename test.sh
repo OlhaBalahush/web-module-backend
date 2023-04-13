@@ -34,7 +34,7 @@ Result:
 
 $toCheckResult"
 
-sleep 10000
+sleep 1000
 
 # Stop the server after tests are done
 kill $server_pid
