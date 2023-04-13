@@ -3,6 +3,12 @@
 
 ## TO USE:
 
+Firstly run the server:
+
+```
+node src/service.js
+```
+
 To check all students:
 ```
 Invoke-RestMethod -Uri "http://localhost:3000/"od -Uri "http://localhost:3000/"
