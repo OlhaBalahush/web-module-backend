@@ -1,0 +1,24 @@
+{
+  "name": "web-module-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlhaBalahush/web-module-backend.git"
+  },
+  "author": "Olha Balahush",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlhaBalahush/web-module-backend/issues"
+  },
+  "homepage": "https://github.com/OlhaBalahush/web-module-backend#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "sqlite3": "^5.1.6"
+  }
+}
