@@ -6,7 +6,7 @@ const app = express();
 const port = 3000;
 
 // create SQLite database and table
-const db = new sqlite3.Database('./db/students.db');
+const db = new sqlite3.Database('./app/db/students.db');
 db.serialize(() => {
     db.run('CREATE TABLE IF NOT EXISTS students (nickname TEXT, first_name TEXT, last_name TEXT)');
     // db.run('INSERT INTO students (nickname, first_name, last_name) VALUES ( ?, ?, ?)', ['olichka', 'Olha', 'Balahush']);
